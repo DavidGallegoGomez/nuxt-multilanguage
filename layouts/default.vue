@@ -9,14 +9,16 @@
 </template>
 
 <script>
-import TopHeader from '@/components/TopHeader.vue'
-import BottomFooter from '@/components/BottomFooter.vue'
+import TopHeader from '@/components/TopHeader'
+import BottomFooter from '@/components/BottomFooter'
 
 export default {
-  components: [TopHeader, BottomFooter]
+  components: { TopHeader, BottomFooter }
 }
 </script>
 
+/*
 <style lang="scss">
-@import '@/assets/scss/styles.scss';
+// @import '@/assets/scss/styles.scss'; // DGG: It's better to have this as a global file in nuxt.config.js
 </style>
+*/
